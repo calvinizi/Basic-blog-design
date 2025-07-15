@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    background-color: rgb(204, 201, 201);
+  }
+    
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .reg-text{
+    font-weight: 700;
+    margin-left: 35%;
+    text-transform: uppercase;
+  }
+  
+  .my-form{
+    background-color: #fff;
+    /* border: #000 solid 1px; */
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+  }
+  
+  .passport{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 112px;
+    border-radius: 3px;
+    border-bottom: #cdd solid 1px;
+  }
+  
+  .input-bar{
+    border: none;
+    outline: none;
+    border-bottom: #cdd solid 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 196px;
+    border-radius: 3px;
+  }
+  
+  
+  .names{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;  
+    border: none;
+    outline: none;
+    border-bottom: #cdd 1px solid;
+  
+  }
+  
+  .wrap-name{
+    display: none;
+  }
+  
+  .icon{
+    color: #fff;
+    background-color: rgb(228, 44, 75);
+    padding: 5px;
+  }
+  
+  .acc-link{
+    margin-left: 23%;
+  }
+
+  .pass-link{
+    margin-left: 26%;
+  }
+  
+  .register{
+    margin-left: 25%;
+    background-color: rgb(228, 44, 75);
+    color: #fff;
+    padding: 10px 70px;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  
+  .register:hover{
+    color: rgb(228, 44, 75);
+    background-color: #fff;
+    border: rgb(228, 44, 75) solid 1px;
+  }
+  
+  @media(max-width:768px){
+    .f-l-names{
+      display: none;
+    }
+    .wrap-name{
+      display: block;
+    }
+
+    .wrap-name .names{
+      padding-right: 100px;
+      
+    }
+
+    .mobile-names{
+      display: block;
+    }
+
+    .input-bar{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 100px;
+      border-radius: 3px;
+    }
+  
+    .register{
+      margin-left: 14%;
+    }
+
+    form .pass-link{
+      margin-left: 14%;
+    }
+
+    form .acc-link{
+      margin-left: 9%;
+    }
+
+    .acc-link{
+      margin-left: 12%;
+    }
+  
+  }
+
+  @media(max-width:425px){
+    .reg-text{
+      margin-left: 30%;
+    }
+  
+
+
+    .register{
+      margin-left: 12%;
+    }
+    
+    .acc-link{
+      margin-left: 10%;
+    }
+
+  }
